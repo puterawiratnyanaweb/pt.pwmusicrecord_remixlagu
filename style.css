@@ -1,0 +1,227 @@
+.judul {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: bisque;
+    padding: 30px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+    /*desjudul*/
+.desjudul {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: bisque;
+    padding-left: 30px;
+    padding-top: 0px;
+}
+
+/* Jasa remix */
+.jasaremix{
+    width: 751px;
+    height: 180px;
+}
+/* Heading*/
+.initext {
+    padding-left: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    background: linear-gradient(76.27deg, #CC51D6 -2.26%, rgba(90, 104, 232, 0.6) 28.13%, #E1B1FF 53.17%), linear-gradient(114.08deg, #FFFFFF 4%, rgba(255, 255, 255, 0.5) 75.12%), linear-gradient(114.08deg, #FFFFFF 4%, rgba(255, 255, 255, 0.5) 75.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border-inline-color: transparent;
+    background-blend-mode: normal, overlay, overlay;
+}
+.initext2 {
+    padding-left: 15px;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 90px;
+    background: linear-gradient(76.27deg, #CC51D6 -2.26%, rgba(90, 104, 232, 0.6) 28.13%, #E1B1FF 53.17%), linear-gradient(114.08deg, #FFFFFF 4%, rgba(255, 255, 255, 0.5) 75.12%), linear-gradient(114.08deg, #FFFFFF 4%, rgba(255, 255, 255, 0.5) 75.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    scrollbar-color: transparent;
+    background-blend-mode: normal, overlay, overlay;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+nav {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    right:0;
+    z-index: 999;
+    padding-left: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 15;
+    padding: 15;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 10px;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+    padding-left: 10px;
+  }
+  
+  nav ul li a {
+    padding-left: 10px;
+    color: #fffad0;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #d0ff00;
+  }
+  .button {
+    margin-left: 40px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #92f4ff;
+    color: #000000;
+  }
+ 
+  .img1 {
+    padding-left: 0 px;
+    border-radius: 30px;
+  }
+.des1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #fffad0;
+    
+}
+.head{
+  background-color: black;
+  color:#E1B1FF;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 35px;
+}
+.navlayanan{
+  justify-content: right;
+  padding: 40px;
+  line-height: 20px;
+  
+}
+.marquee {
+  font-family: 20px;
+  background-color: rebeccapurple;
+  color: #d0ff00;
+  line-height: 5px;
+  padding-top: 1px;
+}
+.des2 {
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 5px;
+  color: #d0ff00;
+  text-align: justifi;
+ 
+}
+.button-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 10vh;
+}
+
+.cool-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.cool-button:hover {
+  background-color: #00ff0d;
+  color: black;
+}
+.awal {
+  color: #fffad0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 20px;
+  padding: 15px;
+  margin: 15px;
+  
+}
+.destentang {
+  font-family: 'Times New Roman', Times, serif;
+  color: #fffad0;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.blink {
+  animation: blink 1s infinite;
+  color:#ff0000;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 30px;
+  top: 0%;
+}
+.typewriter {
+  color: #d0ff00;
+  font-size: 20px;
+  overflow: hidden; /* Menghilangkan overflow agar tulisan yang melebihi lebar kontainer tidak terlihat */
+  border-right: .15em solid orange; /* Membuat efek garis yang seolah-olah mengetik */
+  white-space: nowrap; /* Mencegah tulisan terbelah ke baris baru */
+  margin: 0 auto; /* Pusatkan horisontal */
+  letter-spacing: .10em; /* Jarak antar huruf */
+  padding: 30px;
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}

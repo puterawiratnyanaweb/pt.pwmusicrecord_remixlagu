@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>PT.PW MUSIC RECORD</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <style>
+        body {
+          background: url("latar1.jpg") center center fixed;
+          background-size: cover;
+          transition: background 5s ease-in-out;
+        }
+    
+        .gambar-1 {
+          background-image: url("latar1.jpg");
+        }
+    
+        .gambar-2 {
+          background-image: url("latar2.jpg");
+        }
+    
+        .gambar-3 {
+          background-image: url("latar3.jpg");
+        }
+        .gambar-4{
+            background-image: url("latar4.jpg");
+        }
+        
+      </style>
+    </head>
+    <body>
+      <script>
+        var gambarIndex = 1;
+        var totalGambar = 4;
+        var durasiTransisi = 4000; // 4 detik
+    
+        function tampilkanGambarBerikutnya() {
+          gambarIndex++;
+          if (gambarIndex > totalGambar) {
+            gambarIndex = 1;
+          }
+    
+          document.body.className = 'gambar-' + gambarIndex;
+          setTimeout(tampilkanGambarBerikutnya, durasiTransisi);
+        }
+    
+        setTimeout(tampilkanGambarBerikutnya, durasiTransisi);
+      </script>
+      <script>
+        prompt('masukan usia anda?')
+      </script>
+    </body>
+    <nav>
+  <ul>
+    <li><a href="https://www.youtube.com/channel/UCYhb3EYRw5G-n0XWwKT3YTA">Youtube Kami</a></li>
+    <li><a href="https://www.tiktok.com/@djpwrimexs_?lang=id-ID">Tiktok Kami</a></li>
+    <li><a href="https://forms.gle/xGJafkajKwHGFT1A6">Layanan</a></li>
+    <li><a href="https://wa.me/0895368416228/?text=Saya%20ingin%20meremix%20lagu%20di%20perusahaan%20ini.">Kontak</a></li>
+  </ul>
+</nav>
+
+    <div class="judul">PT.PW MUSIC RECORD</div>
+    
+</br></br></br></br>
+    <div class="jasaremix">
+        <div class="initext">
+            Jasa Remix </br>
+            <div class="initext2">
+            Bergaransi Hakcipta
+        </div>
+    </div></br>
+    <a href="https://forms.gle/xGJafkajKwHGFT1A6" class="button">Hubungi Perusahaan Kami</a>
+
+</body>
+</html>
